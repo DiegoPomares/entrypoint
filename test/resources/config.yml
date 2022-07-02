@@ -1,0 +1,2 @@
+templates/example.conf.j2: example.conf
+templates/example2.conf.j2: example2.conf
