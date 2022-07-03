@@ -67,6 +67,8 @@ def write_file(file_path:str, contents:str, overwrite:bool=False) -> bool:
     with open(file_path, "w") as fh:
         fh.write(contents)
 
+    return True
+
 
 def write_rendered_templates(rendered_files, dry_run:bool, overwrite:bool) -> None:
     print("Rendering templates")
